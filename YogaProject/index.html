@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lotus Yoga</title>
+  <style>
+    /* 
+      Styling can be applied to all elements of particular type on the page.
+      To achieve this we simply mention element name as shown below.
+    */
+    input {
+      display: block;
+      margin-bottom: 16px;
+    }
+
+    footer {
+      text-align: center;
+    }
+
+    article {
+      margin-bottom: 60px;
+    }
+
+    /*
+      A better way of styling is using classes.
+      Classes allow you to make look and feel of element unique,
+      so if you have more than one h1 for example each of them can be different!
+
+      Class selectors always start with . and get followed by the name of class.
+    */
+    .banner {
+      text-align: center;
+      text-transform: uppercase;
+      color: white;
+      background-color: black;
+      padding: 32px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 class="banner">Lotus Yoga website</h1>
+  </header>
+
+  <main>
+    <article>
+      <h2>Advantages of daily yoga practice</h2>
+      <small>Posted by Tash Dubrovska on 16 March 2021</small>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque nostrum laudantium ratione, eum corporis illum nobis nulla hic aliquid delectus pariatur! Maiores dignissimos inventore similique aut recusandae veritatis porro repellendus.</p>
+      <a href="">Learn more about benefits of yoga</a>
+    </article>
+
+    <h2>Book today</h2>
+    <form action="/">
+      <label for="name">Name</label>
+      <input type="text" name="name" id="name">
+
+      <label for="date">Class date</label>
+      <input type="date" name="date" id="date">
+
+      <button type="submit">Book Class</button>
+    </form>
+  </main>
+
+  <footer>
+    <img src="./images/lotus.jpg" width="50px" alt="Lotus Yoga logo">
+    <p>Copyright 2021 Lotus Yoga Website</p>
+  </footer>
+</body>
+</html>
